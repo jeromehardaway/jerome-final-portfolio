@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="https://res.cloudinary.com/jhardaway/image/upload/v1603934231/FEM-workshop/jerome-covatar_n3j082.png" type="image/png" />
+
+
+  <title>Jerome Hardaway | Coder &#x2606; Writer &#x2606; Teacher</title>
+
+  <link rel="stylesheet" href="styles/styles.css">
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg static-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Jerome Hardaway</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#work">Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <button class="btn-toggle">Toggle Dark-Mode</button>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <div id="typed-strings">
+        <h1 class="display-4">Hi, I am Jerome Hardaway</h1>
+        <p>I like to teach, talk and write about front end code.</p>
+      </div>
+      <h1><span id="typed"></span></h1>
+    </div>
+  </div>
+
+  <section id="about">
+    <div class="container">
+      <p>
+        Hey, I am a Writer at Stack Overflow, an Instructor, the Executive Director of Vets Who Code, and Javascript Developer in all of these opportunities. As a writer and instructor, I focus on those learning how to code and are looking to get their first job as a Web Developer. As a Developer Advocate, I focus on externally championing the company's tools while internally focusing on improving the culture. As an Executive Director, I focus on training and gathering the resources so that veterans can become employed javascript developers, with a focus on Javascript and APIs.
+      </p>
+  </section>
+
+  <section id="work">
+    <div class="container">
+      <h2 class="center">Codepen</h2>
+      <div class="codepen">
+        <div class="container-fluid">
+          <p class="codepen" data-height="471" data-theme-id="37049" data-default-tab="result" data-user="vetswhocode" data-slug-hash="vYONbWJ" style="height: 471px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Heart Flag">
+            <span>See the Pen <a href="https://codepen.io/vetswhocode/pen/vYONbWJ">
+            Heart Flag</a> by Vets Who Code (<a href="https://codepen.io/vetswhocode">@vetswhocode</a>)
+            on <a href="https://codepen.io">CodePen</a>.</span>
+          </p>
+        </div>
+
+        <div class="container-fluid">
+          <p class="codepen" data-height="530" data-theme-id="37049" data-default-tab="result" data-user="vetswhocode" data-slug-hash="vYLYGKW" style="height: 530px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="Hashflag Animation">
+            <span>See the Pen <a href="https://codepen.io/vetswhocode/pen/vYLYGKW">
+            Hashflag Animation</a> by Vets Who Code (<a href="https://codepen.io/vetswhocode">@vetswhocode</a>)
+            on <a href="https://codepen.io">CodePen</a>.</span>
+          </p>
+        </div>
+
+        <h3>Github</h3>
+        <div class="repos">
+          <a href="https://github.com/Vets-Who-Code/vets-who-code-app"><img src="https://gh-card.dev/repos/Vets-Who-Code/vets-who-code-app.svg"></a>
+          <a href="https://github.com/Vets-Who-Code/prework"><img src="https://gh-card.dev/repos/Vets-Who-Code/prework.svg"></a>
+          <a href="https://github.com/Vets-Who-Code/Curriculum"><img src="https://gh-card.dev/repos/Vets-Who-Code/Curriculum.svg"></a>
+          <a href="https://github.com/Vets-Who-Code/vetswhocode-extension-pack"><img src="https://gh-card.dev/repos/Vets-Who-Code/vetswhocode-extension-pack.svg"></a>
+        </div>
+      </div>
+
+        <h2>Weird Thing About Me</h2>
+        <p>What many people don't know is that I am a huge anime fan. My family loves Ghibli Studios work so I used the API to show all the films. We have seen them all.</p>
+      </div>
+      <div id="root"></div>
+
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <form id="form">
+        <div class="field">
+          <label for="to_name">to_name</label>
+          <input type="text" name="to_name" id="to_name">
+        </div>
+        <div class="field">
+          <label for="from_name">from_name</label>
+          <input type="text" name="from_name" id="from_name">
+        </div>
+        <div class="field">
+          <label for="message_html">message_html</label>
+          <input type="text" name="message_html" id="message_html">
+        </div>
+        <div class="field">
+          <label for="reply_to">reply_to</label>
+          <input type="text" name="reply_to" id="reply_to">
+        </div>
+
+        <input type="submit" id="button" value="Send Email" >
+      </form>
+
+      <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+
+      <script type="text/javascript">
+        emailjs.init('user_gsQKvg1TkmMOKCkMTyKrh')
+      </script>
+    </div>
+  </section>
+
+<!-- Footer -->
+<footer class="bg-light text-center text-lg-start">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!--Grid row-->
+    <div class="row">
+      <!--Grid column-->
+      <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Footer Content</h5>
+
+        <p>
+          Thanks For Visiting My Site! Let's Work Together!
+        </p>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Links</h5>
+
+        <ul class="list-unstyled mb-0">
+
+        </ul>
+      </div>
+      <!--Grid column-->
+
+      <!--Grid column-->
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase mb-0">Links</h5>
+
+        <ul class="list-unstyled">
+
+        </ul>
+      </div>
+      <!--Grid column-->
+    </div>
+    <!--Grid row-->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+    © 2021 Copyright: Jerome Hardaway
+  </div>
+  <!-- Copyright -->
+</footer>
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+  <script type="text/javascript">
+    emailjs.init('user_gsQKvg1TkmMOKCkMTyKrh')
+  </script>
+  <script src="vendor/jquery/jquery.slim.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="scripts/scripts.js"></script>
+
+  <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+</body>
+
+</html>

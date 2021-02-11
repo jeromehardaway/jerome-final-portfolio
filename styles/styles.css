@@ -1,0 +1,131 @@
+
+:root {
+    --first-blue: #091f40;
+    --second-blue: #1a51a3;
+    --third-blue: #142e39;
+    --vwc-red: #c5203e;
+    --vwc-white: #fff;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  body {
+    color: #222;
+    background-color: var(--vwc-white);
+  }
+  body.dark-theme {
+    color: var(--vwc-white);
+    background-color: var(--first-blue);
+  }
+
+  a {
+    color: var(--vwc-white);
+  }
+  body.dark-theme a {
+    color: var(--vwc-white);
+  }
+
+  .navbar a {
+    color: var(--first-blue);
+  }
+
+  .navbar.dark-theme a {
+    color: var(--vwc-white);
+  }
+
+  .btn-toggle {
+      background-color:var(--vwc-red);
+      color: var(--vwc-white);
+  }
+  button.darktheme {
+      background-color: var(--vwc-white);
+  }
+  .jumbotron {
+    color: white;
+    background-image: url("https://res.cloudinary.com/jhardaway/image/upload/v1604607437/Jerome-16_psidww.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .codepen div{
+      margin: 5%;
+  }
+  /* Ghibli API */
+
+  #root {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    margin: 1rem;
+    border: 1px solid gray;
+    background-color: var(--vwc-white);
+  }
+  .card h1 {
+      background-color: var(--first-blue);
+      color: var(--vwc-white);
+  }
+.card.dark-theme {
+    background-color: var(--second-blue);
+}
+  @media screen and (min-width: 600px) {
+    .card {
+      flex: 1 1 calc(50% - 2rem);
+    }
+  }
+
+  @media screen and (min-width: 900px) {
+    .card {
+      flex: 1 1 calc(33% - 2rem);
+    }
+  }
+
+  /*Repos*/
+
+  .repos {
+      margin: 15%;
+  }
+
+
+  /* Email */
+
+  .large {
+    width: 150px;
+  }.field {
+    margin-bottom: 10px;
+  }
+
+  .field label {
+    display: block;
+    font-size: 12px;
+    color: #777;
+  }
+
+  .field input {
+    display: block;
+    min-width: 250px;
+    line-height: 1.5;
+    font-size: 14px;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  input[type="submit"] {
+    display: block;
+    padding: 6px 30px;
+    font-size: 14px;
+    background-color: #4460AA;
+    color: #fff;
+    border: none
+  }
